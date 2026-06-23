@@ -1,4 +1,4 @@
-# deep_search_pro
+# XDeepSearch
 
 一个面向复杂业务问题的多智能体检索与文档生成项目，整体采用 FastAPI + DeepAgents/LangGraph + 多数据源工具集成的架构，支持：
 
@@ -30,7 +30,7 @@
 ## 2. 项目结构
 
 ```text
-deep_search_pro/
+XDeepSearch/
 ├─ agent/                  # 主智能体、模型初始化、提示词加载、子智能体定义
 │  ├─ subagents/
 ├─ api/                    # FastAPI 服务入口、WebSocket 管理、上下文隔离
@@ -525,7 +525,7 @@ uvicorn api.server:app --host 0.0.0.0 --port 8000 --reload
 
 ## 15. 总结
 
-`deep_search_pro` 是一个典型的多智能体企业应用后端雏形，已经具备以下关键能力：
+`XDeepSearch` 是一个典型的多智能体企业应用后端雏形，已经具备以下关键能力：
 
 - 基于主智能体的任务编排
 - 多检索源协同工作
